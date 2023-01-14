@@ -1,0 +1,195 @@
+header{
+    padding-top: 10px;
+    .container{
+        .col-lg-6{
+            display: flex;
+            justify-content: space-around;
+            .input{
+                position: relative;
+               input{
+                background-color: transparent;
+                padding: 6px 10px;
+                border: 1px solid rgba(192, 191, 191, 0.389);
+                width: 350px;
+                border-radius: 15px;
+                color: #fff;
+               }
+               i{
+                font-size: 18px;
+                color: rgba(173, 173, 173, 0.703);
+                position: absolute;
+                top: 6px;
+                right: 14px;
+               }
+               
+            }
+            .lists{
+                display: flex;
+                list-style: none;
+                li{
+                    color: rgba(168, 166, 166, 0.877);
+                    padding: 10px 20px;
+                    border-radius: 15px;
+                    margin-right: 20px;
+                    position: relative;
+                    font-size: 18px;
+                    transition: all .3s ease-in-out;
+                    i{
+                        color: rgb(150, 148, 148);
+                        font-size: 14px;
+                    }
+                    ul{
+                        display: none;
+                        width: 240px;
+                        padding: 5px 0px;
+                        list-style: none;
+                        background-color: none;
+                        position: absolute;
+                        top: 46px;
+                        left: -5px;
+                        background-color: rgba( 17,24,39);
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        border: 1px solid rgba(177, 176, 176, 0.414);
+                        border-radius: 10px;
+                        li{
+                            background-color: none;
+                            text-align: left;
+                            font-size: 16px;
+                        }
+                    }
+                    &:hover{
+                        background-color: rgba(210, 209, 209, 0.418);
+                        cursor: pointer;
+                        color: #fff;
+                        ul{
+                            display: block;
+                            z-index: 1;
+                        }
+                    }
+
+                }
+            }
+            span{
+                width: 1px;
+                height:25px;
+                color:#fff;
+                background-color: rgb(209, 204, 204);
+                display: inline-block;
+                margin-top: 11px;
+            }
+            .icon-box{
+                padding-top: 5px;
+                i{
+                    position: relative;
+                    color: #fff;
+                    font-size: 22px;
+                    margin-right: 5px;
+                    width: 55px;
+                    border-radius: 50%;
+                    padding: 8px  10px;
+                    &:hover{
+                        background-color: rgba(219, 216, 216, 0.436);
+                        cursor: pointer;
+                    }
+                    span{
+                        position: absolute;
+                        top: -3px;
+                        right: 13px;
+                        display: inline-block;
+                        background-color: rgb(58 147 186);
+                        height: 8px;
+                        width: 8px;
+                        border-radius: 50%;
+                    }
+                }
+                button{
+                    padding: 6px 20px;
+                    border-radius: 20px;
+                    background-color: rgb(50, 136, 194);
+                    border: none;
+                    color: #fff;
+                    font-size: 18px;
+                    &:hover{
+                        opacity: 0.7;
+                    }
+                }
+                a{
+                    display: inline-block;
+                    width: 40px;
+                    position: relative;
+                    transition: all .3s ease-in-out;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        background-position: center;
+                        background-size: cover;
+                    border-radius: 50%;
+
+                    }
+                    .layout{
+                        display: none;
+                        position: absolute;
+                        width: 240px;
+                        right: -15px;
+                        top:41px;
+                        z-index: 2;
+                        padding: 10px;
+                        background-color: rgb(26, 34, 53);
+                        border-radius: 20px;
+                     transition: all .5s ease-in-out;
+
+                        .top{
+                            img{
+                                width: 40px;
+                                height: 40px;
+                            }
+                            p{
+                                color: #fff;
+                                display: inline-block;
+                                text-align: center;
+                            }
+                        }
+                        .center{
+                            .line{
+                                width: 200px;
+                                height: 1px;
+                                background-color: rgb(142, 138, 138);
+                                display: inline-block;
+                            }
+                          .icon_txt{
+                            p{
+                                display: inline-block;
+                                color: #fff;
+                                padding: 0;
+                            }
+                            
+            
+                          }
+                        }
+                        .bottom{
+                            .line{
+                                width: 200px;
+                                height: 1px;
+                                background-color: rgb(142, 138, 138);
+                                display: inline-block;
+                            }
+                            .icon_txt{
+                                p{
+                                    display: inline-block;
+                                    color: #fff;
+                                    padding: 0;
+                                }
+                              }
+
+                        }
+                    }
+                    &:hover{
+                        .layout{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
