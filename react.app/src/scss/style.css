@@ -15,12 +15,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  padding-top: 115px;
 }
 #background .container {
-  position: absolute;
-  top: 150px;
-  left: 85px;
   background-color: rgb(17, 24, 39);
   padding: 40px 20px;
   border-radius: 20px;

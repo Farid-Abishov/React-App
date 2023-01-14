@@ -3,12 +3,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    padding-top: 115px;
+    
     .container{
-        position: absolute;
-        top: 150px;
-        left: 85px;
-        background-color: rgba( 17,24,39);
+         background-color: rgba( 17,24,39);
          padding: 40px 20px;
          border-radius: 20px;
          border: 1px solid rgba(173, 172, 172, 0.255);
