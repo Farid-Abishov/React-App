@@ -544,6 +544,10 @@ header .container .col-lg-6 .icon-box a:hover .layout {
   display: block;
 }
 
+.bi-brightness-high {
+  display: none;
+}
+
 footer {
   padding: 60px 0px;
 }
