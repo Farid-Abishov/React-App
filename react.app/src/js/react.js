@@ -1,3 +1,4 @@
+
 const Normal_mode=document.querySelector(".bi-brightness-high");
 
 const Dark_mode=document.querySelector(".bi-moon");
@@ -7,6 +8,7 @@ console.log("ok");
 document.querySelector("body").style.backgroundColor = "white";
 Normal_mode.style.display="inline-block";
 Dark_mode.style.display="none";
+Normal_mode.style.color="black";
 }
 );
 
