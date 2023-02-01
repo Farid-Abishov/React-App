@@ -6,6 +6,12 @@
 }
 body{
     background-color: rgb( 17,24,39);
-    
- 
+}
+
+body.dark {
+    background-color: white !important;
+}
+
+body.dark , body.dark * {
+    color: black !important;
 }
