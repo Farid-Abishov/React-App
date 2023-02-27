@@ -5,6 +5,9 @@ header{
             display: flex;
             justify-content: space-around;
             .input{
+                @media(max-width:576px){
+                    display: none;
+                }
                 position: relative;
                input{
                 background-color: transparent;

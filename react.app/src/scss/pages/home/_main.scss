@@ -52,6 +52,9 @@
                 }  
             }
             .col-lg-8{
+                @media(max-width:576px){
+                    display: none;
+                }
                 .row{
                     .col-lg-12{
                         p{
