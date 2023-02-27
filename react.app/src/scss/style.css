@@ -73,6 +73,11 @@ body.dark, body.dark * {
   display: inline-block;
   background-color: gray;
 }
+@media (max-width: 576px) {
+  #background .container .row .col-lg-8 {
+    display: none;
+  }
+}
 #background .container .row .col-lg-8 .row .col-lg-12 p {
   font-size: 40px;
   color: #fff;
@@ -386,6 +391,11 @@ header .container .col-lg-6 {
 }
 header .container .col-lg-6 .input {
   position: relative;
+}
+@media (max-width: 576px) {
+  header .container .col-lg-6 .input {
+    display: none;
+  }
 }
 header .container .col-lg-6 .input input {
   background-color: transparent;
