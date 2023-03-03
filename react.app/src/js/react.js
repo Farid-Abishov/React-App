@@ -12,14 +12,10 @@ Dark_mode.addEventListener("click", () => {
   cntn_container.style.backgroundColor = "white";
 });
 
-Normal_mode.addEventListener("click", () => {
+Normal_mode.addEventListener("click"), () =>{
   document.body.classList.remove("dark");
   document.querySelector("body").style.backgroundColor = "#111828";
   Normal_mode.style.display = "none";
   Dark_mode.style.display = "inline-block";
   cntn_container.style.backgroundColor = "#111828";
-<<<<<<< HEAD
-});
-=======
-});
->>>>>>> 967147419f5f180e1db158e371cf4e1222f334e6
+}
